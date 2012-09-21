@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		728062DC160C938100F9997D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728062DB160C938100F9997D /* UIKit.framework */; };
+		728062DE160C938100F9997D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728062DD160C938100F9997D /* Foundation.framework */; };
+		728062E0160C938100F9997D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728062DF160C938100F9997D /* CoreGraphics.framework */; };
+		728062E6160C938100F9997D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 728062E4160C938100F9997D /* InfoPlist.strings */; };
+		728062E8160C938100F9997D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728062E7160C938100F9997D /* main.m */; };
+		728062EC160C938100F9997D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 728062EB160C938100F9997D /* AppDelegate.m */; };
+		728062EE160C938100F9997D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 728062ED160C938100F9997D /* Default.png */; };
+		728062F0160C938100F9997D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 728062EF160C938100F9997D /* Default@2x.png */; };
+		728062F2160C938100F9997D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 728062F1160C938100F9997D /* Default-568h@2x.png */; };
+		728062F5160C938100F9997D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728062F4160C938100F9997D /* ViewController.m */; };
+		728062F8160C938100F9997D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728062F6160C938100F9997D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		728062D7160C938100F9997D /* SocialNetwrking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwrking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728062DB160C938100F9997D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		728062DD160C938100F9997D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		728062DF160C938100F9997D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		728062E3160C938100F9997D /* SocialNetwrking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialNetwrking-Info.plist"; sourceTree = "<group>"; };
+		728062E5160C938100F9997D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		728062E7160C938100F9997D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		728062E9160C938100F9997D /* SocialNetwrking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialNetwrking-Prefix.pch"; sourceTree = "<group>"; };
+		728062EA160C938100F9997D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		728062EB160C938100F9997D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		728062ED160C938100F9997D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		728062EF160C938100F9997D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		728062F1160C938100F9997D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		728062F3160C938100F9997D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		728062F4160C938100F9997D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		728062F7160C938100F9997D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728062D4160C938100F9997D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728062DC160C938100F9997D /* UIKit.framework in Frameworks */,
+				728062DE160C938100F9997D /* Foundation.framework in Frameworks */,
+				728062E0160C938100F9997D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		728062CC160C938100F9997D = {
+			isa = PBXGroup;
+			children = (
+				728062E1160C938100F9997D /* SocialNetwrking */,
+				728062DA160C938100F9997D /* Frameworks */,
+				728062D8160C938100F9997D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		728062D8160C938100F9997D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728062D7160C938100F9997D /* SocialNetwrking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728062DA160C938100F9997D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				728062DB160C938100F9997D /* UIKit.framework */,
+				728062DD160C938100F9997D /* Foundation.framework */,
+				728062DF160C938100F9997D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728062E1160C938100F9997D /* SocialNetwrking */ = {
+			isa = PBXGroup;
+			children = (
+				728062EA160C938100F9997D /* AppDelegate.h */,
+				728062EB160C938100F9997D /* AppDelegate.m */,
+				728062F3160C938100F9997D /* ViewController.h */,
+				728062F4160C938100F9997D /* ViewController.m */,
+				728062F6160C938100F9997D /* ViewController.xib */,
+				728062E2160C938100F9997D /* Supporting Files */,
+			);
+			path = SocialNetwrking;
+			sourceTree = "<group>";
+		};
+		728062E2160C938100F9997D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				728062E3160C938100F9997D /* SocialNetwrking-Info.plist */,
+				728062E4160C938100F9997D /* InfoPlist.strings */,
+				728062E7160C938100F9997D /* main.m */,
+				728062E9160C938100F9997D /* SocialNetwrking-Prefix.pch */,
+				728062ED160C938100F9997D /* Default.png */,
+				728062EF160C938100F9997D /* Default@2x.png */,
+				728062F1160C938100F9997D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		728062D6160C938100F9997D /* SocialNetwrking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728062FB160C938100F9997D /* Build configuration list for PBXNativeTarget "SocialNetwrking" */;
+			buildPhases = (
+				728062D3160C938100F9997D /* Sources */,
+				728062D4160C938100F9997D /* Frameworks */,
+				728062D5160C938100F9997D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialNetwrking;
+			productName = SocialNetwrking;
+			productReference = 728062D7160C938100F9997D /* SocialNetwrking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728062CE160C938100F9997D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = RainCreatives;
+			};
+			buildConfigurationList = 728062D1160C938100F9997D /* Build configuration list for PBXProject "SocialNetwrking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 728062CC160C938100F9997D;
+			productRefGroup = 728062D8160C938100F9997D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728062D6160C938100F9997D /* SocialNetwrking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728062D5160C938100F9997D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728062E6160C938100F9997D /* InfoPlist.strings in Resources */,
+				728062EE160C938100F9997D /* Default.png in Resources */,
+				728062F0160C938100F9997D /* Default@2x.png in Resources */,
+				728062F2160C938100F9997D /* Default-568h@2x.png in Resources */,
+				728062F8160C938100F9997D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728062D3160C938100F9997D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728062E8160C938100F9997D /* main.m in Sources */,
+				728062EC160C938100F9997D /* AppDelegate.m in Sources */,
+				728062F5160C938100F9997D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		728062E4160C938100F9997D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728062E5160C938100F9997D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		728062F6160C938100F9997D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728062F7160C938100F9997D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		728062F9160C938100F9997D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		728062FA160C938100F9997D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		728062FC160C938100F9997D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialNetwrking/SocialNetwrking-Prefix.pch";
+				INFOPLIST_FILE = "SocialNetwrking/SocialNetwrking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		728062FD160C938100F9997D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialNetwrking/SocialNetwrking-Prefix.pch";
+				INFOPLIST_FILE = "SocialNetwrking/SocialNetwrking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728062D1160C938100F9997D /* Build configuration list for PBXProject "SocialNetwrking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728062F9160C938100F9997D /* Debug */,
+				728062FA160C938100F9997D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728062FB160C938100F9997D /* Build configuration list for PBXNativeTarget "SocialNetwrking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728062FC160C938100F9997D /* Debug */,
+				728062FD160C938100F9997D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 728062CE160C938100F9997D /* Project object */;
+}
