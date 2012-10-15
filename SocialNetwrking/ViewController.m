@@ -31,9 +31,9 @@
 - (IBAction)showAllClick:(id)sender {
     
     
-    NSString *textToShare = @"Testing!";
+    NSString *textToShare = @"Learn iOS6 Social Framework integration";
     UIImage *imageToShare = [UIImage imageNamed:@"salmantiger.jpeg"];
-    NSURL *url = [NSURL URLWithString:@"http://www.yashesh.in"];
+    NSURL *url = [NSURL URLWithString:@"http://www.yashesh87.wordpress.com"];
     NSArray *activityItems = [[NSArray alloc]  initWithObjects:textToShare, imageToShare,url,nil];
     
     UIActivity *activity = [[UIActivity alloc] init];
@@ -90,7 +90,7 @@
         controller.completionHandler =myBlock;
         
         [controller setInitialText:@"Learn iOS6 Social Framework integration"];
-        [controller addURL:[NSURL URLWithString:@"http://www.yashesh.in"]];
+        [controller addURL:[NSURL URLWithString:@"http://www.yashesh87.wordpress.com"]];
         [controller addImage:[UIImage imageNamed:@"salmantiger.jpeg"]];
         
         [self presentViewController:controller animated:YES completion:Nil];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720198DF160D9B8900BB0EC1 /* salmantiger.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 720198DE160D9B8900BB0EC1 /* salmantiger.jpeg */; };
 		728062DC160C938100F9997D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728062DB160C938100F9997D /* UIKit.framework */; };
 		728062DE160C938100F9997D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728062DD160C938100F9997D /* Foundation.framework */; };
 		728062E0160C938100F9997D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728062DF160C938100F9997D /* CoreGraphics.framework */; };
@@ -18,9 +19,12 @@
 		728062F2160C938100F9997D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 728062F1160C938100F9997D /* Default-568h@2x.png */; };
 		728062F5160C938100F9997D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728062F4160C938100F9997D /* ViewController.m */; };
 		728062F8160C938100F9997D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728062F6160C938100F9997D /* ViewController.xib */; };
+		728062FF160C939D00F9997D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728062FE160C939D00F9997D /* Social.framework */; };
+		72BE57FC160DEB91000DF74D /* salman.png in Resources */ = {isa = PBXBuildFile; fileRef = 72BE57FB160DEB91000DF74D /* salman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		720198DE160D9B8900BB0EC1 /* salmantiger.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salmantiger.jpeg; sourceTree = "<group>"; };
 		728062D7160C938100F9997D /* SocialNetwrking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwrking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728062DB160C938100F9997D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		728062DD160C938100F9997D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +41,8 @@
 		728062F3160C938100F9997D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		728062F4160C938100F9997D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		728062F7160C938100F9997D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		728062FE160C939D00F9997D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		72BE57FB160DEB91000DF74D /* salman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728062FF160C939D00F9997D /* Social.framework in Frameworks */,
 				728062DC160C938100F9997D /* UIKit.framework in Frameworks */,
 				728062DE160C938100F9997D /* Foundation.framework in Frameworks */,
 				728062E0160C938100F9997D /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +80,7 @@
 		728062DA160C938100F9997D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				728062FE160C939D00F9997D /* Social.framework */,
 				728062DB160C938100F9997D /* UIKit.framework */,
 				728062DD160C938100F9997D /* Foundation.framework */,
 				728062DF160C938100F9997D /* CoreGraphics.framework */,
@@ -83,6 +91,8 @@
 		728062E1160C938100F9997D /* SocialNetwrking */ = {
 			isa = PBXGroup;
 			children = (
+				72BE57FB160DEB91000DF74D /* salman.png */,
+				720198DE160D9B8900BB0EC1 /* salmantiger.jpeg */,
 				728062EA160C938100F9997D /* AppDelegate.h */,
 				728062EB160C938100F9997D /* AppDelegate.m */,
 				728062F3160C938100F9997D /* ViewController.h */,
@@ -163,6 +173,8 @@
 				728062F0160C938100F9997D /* Default@2x.png in Resources */,
 				728062F2160C938100F9997D /* Default-568h@2x.png in Resources */,
 				728062F8160C938100F9997D /* ViewController.xib in Resources */,
+				720198DF160D9B8900BB0EC1 /* salmantiger.jpeg in Resources */,
+				72BE57FC160DEB91000DF74D /* salman.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +266,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocialNetwrking/SocialNetwrking-Prefix.pch";
 				INFOPLIST_FILE = "SocialNetwrking/SocialNetwrking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocialNetwrking/SocialNetwrking-Prefix.pch";
 				INFOPLIST_FILE = "SocialNetwrking/SocialNetwrking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +303,7 @@
 				728062FD160C938100F9997D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
