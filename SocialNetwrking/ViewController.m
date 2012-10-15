@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //Updated
+    //Updated Social framework
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
